@@ -9,22 +9,26 @@
     <title>Conversor de Moedas</title>
 </head>
 <body>
-    <div class="container">
-        <h1 class="page-title">
-          Conversor de moedas
-        </h1>
-        <p class="page-subtitle">
-          Descubra os valores em real R$
-        </p>
-        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
-        <label for="moeda">Converter Moedas</label><br>
-        <input type="number" id="valor" size="2" /><br>
-        <button type="submit" onclick="ConverterEmReal()">Converter Em Reais</button>
-        <h2 id="valorConvertido"></h2>
-        <button type="submit" onclick="ConverterEmDolar()">Converter Em Dolar</button>
-        <h2 id="valorConvertidoEmDolar"></h2>
-    </div>
-      <a href="https://alura.com.br/" target="_blank">
-        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  <div class="container">
+    <h1 class="page-title">
+      Conversor de moedas
+    </h1>
+    <p class="page-subtitle">
+      Descubra os valores em dolar U$
+    </p>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+    <label for="moeda">Insira o valor</label><br>
+    <input type="number" id="valor" size="2" /><br>
+    <button type="submit" onclick="ConverterEmReal()">Converter Em Real</button>
+    <button type="submit" onclick="ConverterEmDolar()">Converter Em Dolar</button>
+    <button type="submit" onclick="ConverterEmLibraEstrelina()">Converter Em Libra</button>
+    <button type="submit" onclick="ConverterEmMoedaTailandesa()">Converter Tailandesa</button>
+    <h2 id="valorConvertidoEmReal"></h2>
+    <h2 id="valorConvertidoEmDolar"></h2>
+    <h2 id="valorConvertidoEmLibra"></h2>
+    <h2 id="valorConvertidoEmTailandesa"></h2>
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
 </body>
 </html>
